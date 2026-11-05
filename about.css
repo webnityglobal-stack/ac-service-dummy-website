@@ -1,0 +1,417 @@
+
+/* ABOUT PAGE HERO */
+
+.about-hero {
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(5, 29, 49, .94), rgba(5, 43, 70, .65)),
+    url("https://images.unsplash.com/photo-1631545806609-4b7c7a8e7f12?auto=format&fit=crop&w=1800&q=85")
+    center/cover no-repeat;
+  color: white;
+}
+
+.about-hero-content {
+  padding: 65px 0;
+}
+
+.about-hero-content > span,
+.about-cta-content > div > span {
+  color: #65d5ed;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-hero h1 {
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.15;
+  margin: 15px 0;
+}
+
+.about-hero h1 strong {
+  color: #65d5ed;
+}
+
+.about-hero p {
+  color: #dceaf2;
+  font-size: 14px;
+  max-width: 520px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  font-size: 12px;
+  color: #c5d7e4;
+}
+
+.breadcrumb a {
+  color: #65d5ed;
+}
+
+/* ABOUT INTRO */
+
+.about-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.about-intro-image {
+  position: relative;
+}
+
+.about-intro-image img {
+  height: 460px;
+  border-radius: 13px;
+}
+
+.experience-box {
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+  background: white;
+  padding: 17px 22px;
+  border-radius: 9px;
+  box-shadow: 0 10px 35px #0002;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.experience-box span {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0879d9;
+}
+
+.experience-box p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #09243b;
+}
+
+.about-intro-content h2,
+.why-content h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.2;
+  color: #09243b;
+  margin: 12px 0 18px;
+}
+
+.about-intro-content > p,
+.why-content > p {
+  font-size: 13px;
+  color: #718293;
+  margin-bottom: 14px;
+}
+
+.about-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 22px 0;
+}
+
+.about-points div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.about-points span {
+  width: 23px;
+  height: 23px;
+  background: #e5f5ff;
+  color: #0879d9;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.about-points p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* MISSION */
+
+.mission-section {
+  background: #f3f8fc;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.mission-card {
+  background: white;
+  border: 1px solid #e5edf4;
+  padding: 30px;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px #09243b12;
+}
+
+.mission-icon {
+  width: 53px;
+  height: 53px;
+  background: #eaf5ff;
+  color: #0879d9;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.mission-card h3 {
+  color: #09243b;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.mission-card p {
+  color: #718293;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+/* WHY CHOOSE US */
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 55px;
+}
+
+.why-image img {
+  height: 490px;
+  border-radius: 13px;
+}
+
+.why-list {
+  margin-top: 25px;
+}
+
+.why-item {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.why-item > span {
+  min-width: 42px;
+  height: 42px;
+  background: #eaf5ff;
+  color: #0879d9;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.why-item h3 {
+  color: #09243b;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.why-item p {
+  color: #718293;
+  font-size: 12px;
+}
+
+/* PROCESS */
+
+.process-section {
+  background: #f3f8fc;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.process-card {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 11px;
+  border: 1px solid #e5edf4;
+  position: relative;
+}
+
+.process-number {
+  color: #c7e6fa;
+  font-size: 29px;
+  font-weight: 800;
+}
+
+.process-icon {
+  width: 48px;
+  height: 48px;
+  background: #eaf5ff;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.process-card h3 {
+  font-size: 16px;
+  color: #09243b;
+  margin-bottom: 8px;
+}
+
+.process-card p {
+  color: #718293;
+  font-size: 12px;
+}
+
+/* CTA */
+
+.about-cta {
+  padding: 55px 0;
+  background: linear-gradient(110deg, #0879d9, #064d91);
+  color: white;
+}
+
+.about-cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.about-cta h2 {
+  font-size: clamp(25px, 4vw, 36px);
+  margin: 8px 0;
+}
+
+.about-cta p {
+  font-size: 13px;
+  color: #e0effb;
+}
+
+.cta-btn {
+  background: white;
+  color: #0879d9;
+  white-space: nowrap;
+}
+
+.cta-btn:hover {
+  background: #e8f5ff;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+  .about-intro-grid,
+  .why-grid {
+    gap: 30px;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-intro-image img {
+    height: 400px;
+  }
+
+  .why-image img {
+    height: 430px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 760px) {
+  .about-hero {
+    min-height: 320px;
+  }
+
+  .about-hero-content {
+    padding: 50px 0;
+  }
+
+  .about-intro-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-intro-image img {
+    height: 330px;
+  }
+
+  .experience-box {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-image img {
+    height: 330px;
+  }
+
+  .about-cta-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .about-hero h1 {
+    font-size: 36px;
+  }
+
+  .about-points {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card {
+    padding: 24px;
+  }
+
+  .about-intro-image img {
+    height: 280px;
+  }
+
+  .why-image img {
+    height: 280px;
+  }
+
+  .experience-box {
+    padding: 12px;
+  }
+
+  .experience-box span {
+    font-size: 23px;
+  }
+}

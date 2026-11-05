@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoolCare | AC Repair & Installation Services</title>
+  <meta name="description" content="Book professional AC repair, installation, servicing, gas filling and AC rental services.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <p>Professional AC Repair & Cooling Solutions</p>
+      <p>Call Us: <a href="tel:+919876543210">+91 98765 43210</a></p>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">
+        <span class="logo-icon">❄</span>
+        Cool<span>Care</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="rental.html">AC on Rent</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="book-service.html" class="nav-btn">Book Service</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="tagline">YOUR COMFORT IS OUR PRIORITY</span>
+        <h1>Stay Cool With <span>Expert AC Services</span></h1>
+        <p>Get reliable AC repair, installation, maintenance and rental services for your home and office.</p>
+        <div class="hero-buttons">
+          <a href="book-service.html" class="btn btn-primary">Book a Service</a>
+          <a href="tel:+919876543210" class="btn btn-outline">Call Now</a>
+        </div>
+        <div class="hero-features">
+          <span>✓ Expert Technicians</span>
+          <span>✓ Quick Booking</span>
+          <span>✓ Home & Office Service</span>
+        </div>
+      </div>
+      <div class="hero-form">
+        <h2>Book AC Service</h2>
+        <p>Fill in your details to request a callback.</p>
+        <form id="bookingForm">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="tel" name="phone" placeholder="Mobile Number" required>
+          <select name="service" required>
+            <option value="">Select AC Service</option>
+            <option>AC Repair</option>
+            <option>AC Installation</option>
+            <option>AC Servicing</option>
+            <option>AC Gas Filling</option>
+            <option>AC on Rent</option>
+          </select>
+          <input type="text" name="location" placeholder="Your Location" required>
+          <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST SECTION -->
+  <section class="trust-section">
+    <div class="container trust-grid">
+      <div class="trust-item"><span>🛠️</span><div><h3>Expert Technicians</h3><p>Professional AC Support</p></div></div>
+      <div class="trust-item"><span>⚡</span><div><h3>Quick Response</h3><p>Easy Service Booking</p></div></div>
+      <div class="trust-item"><span>❄️</span><div><h3>Complete AC Care</h3><p>Repair & Maintenance</p></div></div>
+      <div class="trust-item"><span>🏠</span><div><h3>Home & Office</h3><p>Service at Your Location</p></div></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about section-padding" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="https://images.pexels.com/photos/33671149/pexels-photo-33671149.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="AC service technician" loading="lazy">
+      </div>
+      <div class="about-content">
+        <span class="section-tag">ABOUT OUR COMPANY</span>
+        <h2>Professional AC Services You Can Trust</h2>
+        <p>We provide AC repair, installation, servicing and rental solutions for residential and commercial spaces. Our goal is to make your cooling experience simple and convenient.</p>
+        <ul>
+          <li>✓ Split and Window AC Services</li>
+          <li>✓ AC Installation & Uninstallation</li>
+          <li>✓ AC Cleaning & Maintenance</li>
+          <li>✓ AC Rental Enquiry</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Contact Our Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services section-padding" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-tag">WHAT WE OFFER</span>
+        <h2>Our AC Services</h2>
+        <p>Complete air conditioning solutions for your comfort.</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/5463580/pexels-photo-5463580.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AC repair technician" loading="lazy">
+          <div class="service-info">
+            <h3>AC Repair</h3>
+            <p>Solutions for cooling issues, water leakage and AC faults.</p>
+            <a href="book-service.html" data-service="AC Repair">Book Now →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/7347538/pexels-photo-7347538.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AC installation technician" loading="lazy">
+          <div class="service-info">
+            <h3>AC Installation</h3>
+            <p>Professional AC fitting, uninstallation and shifting.</p>
+            <a href="book-service.html" data-service="AC Installation">Book Now →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/5463575/pexels-photo-5463575.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AC servicing" loading="lazy">
+          <div class="service-info">
+            <h3>AC Servicing</h3>
+            <p>Cleaning and maintenance for better AC performance.</p>
+            <a href="book-service.html" data-service="AC Servicing">Book Now →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/5463576/pexels-photo-5463576.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AC gas filling technician" loading="lazy">
+          <div class="service-info">
+            <h3>AC Gas Filling</h3>
+            <p>Refrigerant inspection and gas-related service enquiries.</p>
+            <a href="book-service.html" data-service="AC Gas Filling">Book Now →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/12898242/pexels-photo-12898242.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Air conditioner for rental" loading="lazy">
+          <div class="service-info">
+            <h3>AC on Rent</h3>
+            <p>Flexible rental enquiries for homes, offices and shops.</p>
+            <a href="rental.html">Explore Plans →</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="https://images.pexels.com/photos/32497161/pexels-photo-32497161.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Commercial AC service" loading="lazy">
+          <div class="service-info">
+            <h3>Commercial AC</h3>
+            <p>AC support for offices, shops and business spaces.</p>
+            <a href="book-service.html" data-service="Commercial AC">Book Now →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RENTAL SECTION -->
+  <section class="rental section-padding" id="rental">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-tag">FLEXIBLE COOLING</span>
+        <h2>Looking for AC on Rent?</h2>
+        <p>Choose a rental duration that suits your requirement.</p>
+      </div>
+      <div class="rental-grid">
+        <div class="rental-card">
+          <h3>Short-Term Rental</h3>
+          <p>For temporary cooling requirements and short stays.</p>
+          <a href="contact.html" data-service="Short-Term AC Rental" class="btn btn-primary">Enquire Now</a>
+        </div>
+        <div class="rental-card">
+          <h3>Monthly Rental</h3>
+          <p>For homes, apartments, shops and offices.</p>
+          <a href="contact.html" data-service="Monthly AC Rental" class="btn btn-primary">Enquire Now</a>
+        </div>
+        <div class="rental-card">
+          <h3>Commercial Rental</h3>
+          <p>Rental enquiries for offices and commercial spaces.</p>
+          <a href="contact.html" data-service="Commercial AC Rental" class="btn btn-primary">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-tag">GET IN TOUCH</span>
+        <h2>Book Your AC Service Today</h2>
+        <p>Tell us what you need. Our team can contact you to discuss it.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>We are here to help with your AC requirements.</p>
+          <p>☎ +91 98765 43210</p>
+          <p>✉ hello@coolcare.in</p>
+          <p>⌖ Your City, Your State</p>
+          <p>◷ Monday – Sunday, 9 AM – 8 PM</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="tel" name="phone" placeholder="Mobile Number" required>
+          <select name="service" required>
+            <option value="">Select Service</option>
+            <option>AC Repair</option>
+            <option>AC Installation</option>
+            <option>AC Servicing</option>
+            <option>AC Gas Filling</option>
+            <option>AC on Rent</option>
+            <option>Commercial AC</option>
+          </select>
+          <input type="text" name="location" placeholder="Your Location" required>
+          <textarea name="message" placeholder="Tell us about your requirement"></textarea>
+          <button type="submit" class="btn btn-primary">Send Enquiry on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo footer-logo">❄ Cool<span>Care</span></a>
+        <p>Your trusted destination for AC repair, installation, servicing and rental enquiries.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="service.html">Services</a>
+        <a href="rental.html">AC on Rent</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Our Services</h3>
+        <a href="service.html#ac-repair">AC Repair</a>
+        <a href="service.html#ac-installation">AC Installation</a>
+        <a href="service.html#ac-servicing">AC Servicing</a>
+        <a href="service.html#ac-gas-filling">AC Gas Filling</a>
+        <a href="rental.html">AC Rental</a>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <a href="tel:+919876543210">+91 98765 43210</a>
+        <a href="mailto:hello@coolcare.in">hello@coolcare.in</a>
+        <p>Your City, Your State, India</p>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> CoolCare. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">✆</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

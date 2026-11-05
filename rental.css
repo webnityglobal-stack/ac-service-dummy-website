@@ -1,0 +1,452 @@
+/* Rental Hero */
+
+.rental-hero {
+    background: linear-gradient(135deg, #eef8ff, #ffffff);
+    padding: 85px 0;
+    overflow: hidden;
+}
+
+.rental-hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.rental-tag,
+.enquiry-info > span {
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.rental-hero-text h1 {
+    font-size: clamp(38px, 5vw, 58px);
+    line-height: 1.2;
+    color: var(--dark);
+    margin: 18px 0;
+    font-weight: 800;
+}
+
+.rental-hero-text p {
+    color: #64748b;
+    line-height: 1.9;
+    font-size: 15px;
+    max-width: 550px;
+}
+
+.rental-hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.rental-outline-btn {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.rental-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 30px;
+    color: var(--dark);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rental-hero-image {
+    height: 440px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(9, 36, 59, 0.12);
+}
+
+.rental-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Rental Benefits */
+
+.rental-benefits {
+    background: #fff;
+}
+
+.rental-benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.benefit-card {
+    padding: 30px 24px;
+    border: 1px solid #e6edf4;
+    border-radius: 16px;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 80, 150, 0.09);
+    border-color: var(--blue);
+}
+
+.benefit-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 14px;
+    background: #eaf5ff;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+    font-size: 18px;
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+
+.benefit-card p {
+    color: #718096;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* Rental Plans */
+
+.rental-plans {
+    background: #f4f8fc;
+}
+
+.rental-plan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.rental-plan-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+    border: 1px solid #e8edf3;
+}
+
+.rental-plan-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 50, 100, 0.10);
+}
+
+.plan-image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.plan-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.rental-plan-card:hover .plan-image img {
+    transform: scale(1.06);
+}
+
+.plan-content {
+    padding: 28px;
+}
+
+.plan-label {
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.plan-content h3 {
+    font-size: 21px;
+    color: var(--dark);
+    margin: 12px 0;
+}
+
+.plan-content p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #718096;
+}
+
+.plan-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-content li {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.plan-content li::before {
+    content: "✓";
+    color: var(--blue);
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.rental-btn {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+/* Rental Process */
+
+.rental-process {
+    background: #fff;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.process-card {
+    padding: 28px;
+    border-radius: 16px;
+    background: #f4f8fc;
+    border: 1px solid #e7edf4;
+}
+
+.process-card span {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--blue);
+    opacity: 0.8;
+}
+
+.process-card h3 {
+    font-size: 17px;
+    color: var(--dark);
+    margin: 15px 0 10px;
+}
+
+.process-card p {
+    color: #718096;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* Rental Enquiry */
+
+.rental-enquiry {
+    background: #eef7ff;
+}
+
+.enquiry-wrapper {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.enquiry-info h2 {
+    color: var(--dark);
+    font-size: 38px;
+    line-height: 1.3;
+    margin: 18px 0;
+}
+
+.enquiry-info > p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.enquiry-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.enquiry-contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.enquiry-contact span {
+    color: #64748b;
+    font-size: 12px;
+}
+
+.enquiry-contact a {
+    color: var(--dark);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.enquiry-form-box {
+    padding: 38px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 45px rgba(0, 60, 120, 0.08);
+}
+
+.enquiry-form-box h3 {
+    color: var(--dark);
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    color: var(--dark);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 14px 15px;
+    border: 1px solid #dce5ed;
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--dark);
+    background: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: var(--blue);
+}
+
+.enquiry-submit {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 992px) {
+
+    .rental-hero-content {
+        gap: 35px;
+    }
+
+    .rental-benefit-grid,
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rental-plan-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .enquiry-wrapper {
+        gap: 35px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .rental-hero {
+        padding: 60px 0;
+    }
+
+    .rental-hero-content {
+        grid-template-columns: 1fr;
+    }
+
+    .rental-hero-text h1 {
+        font-size: 38px;
+    }
+
+    .rental-hero-image {
+        height: 300px;
+    }
+
+    .rental-features {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rental-benefit-grid,
+    .rental-plan-grid,
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .enquiry-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .enquiry-info h2 {
+        font-size: 30px;
+    }
+
+    .enquiry-form-box {
+        padding: 25px 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .rental-hero-text h1 {
+        font-size: 32px;
+    }
+
+    .rental-hero-buttons {
+        flex-direction: column;
+    }
+
+    .rental-hero-buttons .btn {
+        text-align: center;
+        width: 100%;
+    }
+
+    .rental-hero-image {
+        height: 240px;
+    }
+
+    .benefit-card,
+    .process-card {
+        padding: 24px 20px;
+    }
+
+}
