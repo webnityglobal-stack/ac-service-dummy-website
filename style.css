@@ -1006,3 +1006,18 @@ button, input, select, textarea {
     gap: 10px;
   }
 }
+/* NAVBAR FONT SIZE */
+.nav-links a {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-btn {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* NAVBAR SPACING */
+.nav-links {
+    gap: 32px;
+}
